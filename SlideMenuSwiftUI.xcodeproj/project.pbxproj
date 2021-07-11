@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0412F3D7269ADCD10047763C /* slideMenuImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0412F3D6269ADCD10047763C /* slideMenuImage.png */; };
 		041F09ED2699B2E900D1A732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F09EC2699B2E900D1A732 /* AppDelegate.swift */; };
 		041F09EF2699B2E900D1A732 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F09EE2699B2E900D1A732 /* SceneDelegate.swift */; };
 		041F09F12699B2E900D1A732 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F09F02699B2E900D1A732 /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0412F3D6269ADCD10047763C /* slideMenuImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideMenuImage.png; sourceTree = "<group>"; };
 		041F09E92699B2E900D1A732 /* SlideMenuSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideMenuSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041F09EC2699B2E900D1A732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041F09EE2699B2E900D1A732 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0412F3D5269ADC3C0047763C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0412F3D6269ADCD10047763C /* slideMenuImage.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		041F09E02699B2E900D1A732 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 		041F09EB2699B2E900D1A732 /* SlideMenuSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0412F3D5269ADC3C0047763C /* Images */,
 				041F0A032699B31500D1A732 /* Views */,
 				041F0A012699B30400D1A732 /* Slide Menu */,
 				041F09EC2699B2E900D1A732 /* AppDelegate.swift */,
@@ -231,6 +242,7 @@
 				041F09F92699B2EA00D1A732 /* LaunchScreen.storyboard in Resources */,
 				041F09F62699B2EA00D1A732 /* Preview Assets.xcassets in Resources */,
 				041F09F32699B2EA00D1A732 /* Assets.xcassets in Resources */,
+				0412F3D7269ADCD10047763C /* slideMenuImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
